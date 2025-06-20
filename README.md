@@ -44,12 +44,20 @@ npx tsc
 
 ```
 .
-├── index.html
-├── styles.css
-├── app.ts
-├── app.js       # gerado pelo TypeScript
-├── tsconfig.json
-└── README.md
+├── public
+│   ├── classes
+│   │   ├── Invoice.js
+│   │   ├── ListTemplate.js
+│   │   └── Payment.js
+│   ├── interfaces
+│   │   └── HasFormatter.js
+│   ├── app.js
+│   ├── index.html
+│   └── styles.css
+├── src
+├── preview.png
+├── README.md
+└── tsconfig.json
 ```
 
 ---
@@ -64,8 +72,7 @@ npx tsc
 
 ## Autor
 
-Feito com 💜 por [Wilson Júnior](https://www.linkedin.com/in/wilson-j%C3%BAnior-6956052a8/)  
-
+Feito com 💜 por [Wilson Júnior](https://www.linkedin.com/in/wilson-j%C3%BAnior-6956052a8/)
 
 ---
 
